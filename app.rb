@@ -59,7 +59,7 @@ class Application
                 puts "* #{record.id} - #{record.title}"
             
             end
-            # break
+            
         else 
             @io.puts 'Here is the list of artists:'
             # artist_repository = ArtistRepository.new
@@ -67,7 +67,7 @@ class Application
             @artist_repository.all.each do |record|
                 puts "* #{record.id} - #{record.name}"
             end
-            # break
+            
         end
     end
 
